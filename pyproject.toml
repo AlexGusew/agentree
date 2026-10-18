@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentree"
+version = "0.1.0"
+description = "A zellij popup that shows your sessions, git worktrees and coding agents as one tree, and jumps to any of them."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.14"
+dependencies = []
+keywords = ["zellij", "kitty", "git-worktree", "tui", "opencode", "claude-code", "ai-agents"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Software Development",
+    "Topic :: Terminals",
+]
+
+[project.urls]
+Homepage = "https://github.com/AlexGusew/agentree"
+Issues = "https://github.com/AlexGusew/agentree/issues"
+Changelog = "https://github.com/AlexGusew/agentree/blob/main/CHANGELOG.md"
+
+[project.scripts]
+agentree = "agentree.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["agentree*"]

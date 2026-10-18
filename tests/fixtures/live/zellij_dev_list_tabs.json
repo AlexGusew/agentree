@@ -1,0 +1,25 @@
+[
+  {
+    "position": 0,
+    "name": "Tab #6",
+    "active": true,
+    "panes_to_hide": 0,
+    "is_fullscreen_active": false,
+    "is_sync_panes_active": false,
+    "are_floating_panes_visible": false,
+    "other_focused_clients": [
+      1
+    ],
+    "active_swap_layout_name": null,
+    "is_swap_layout_dirty": false,
+    "viewport_rows": 58,
+    "viewport_columns": 216,
+    "display_area_rows": 59,
+    "display_area_columns": 216,
+    "selectable_tiled_panes_count": 1,
+    "selectable_floating_panes_count": 0,
+    "tab_id": 2,
+    "has_bell_notification": false,
+    "is_flashing_bell": false
+  }
+]

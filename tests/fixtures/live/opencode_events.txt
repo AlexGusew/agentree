@@ -1,0 +1,32 @@
+: opencode 1.18.27 GET /event (decoded SSE), captured live 2026-10-09; large tool frames dropped
+
+data: {"id":"evt_11ddd3afd001CS1X2muaFXP5TJ","type":"server.connected","properties":{}}
+
+data: {"id":"evt_11ddd61f9001l8NcWmGsWQLndd","type":"server.heartbeat","properties":{}}
+
+data: {"id":"evt_11ddd890f001Hjt0LKDGQUZ9M4","type":"server.heartbeat","properties":{}}
+
+data: {"id":"evt_11ddd3afe001twgMCXUMcG40Dv","type":"session.updated","properties":{"sessionID":"ses_ee2234da6ffewpzqKcz0Fx8l5J","info":{"id":"ses_ee2234da6ffewpzqKcz0Fx8l5J","slug":"crisp-garden","projectID":"global","directory":"/Users/me/.config","path":"Users/me/.config","parentID":"ses_ee338a377ffe8gV04DkmWs9jB1","title":"Write refresh tests (@fixer subagent)","agent":"fixer","model":{"id":"claude-opus-5.5","providerID":"github-copilot","variant":"high"},"version":"1.18.27","summary":{"additions":0,"deletions":0,"files":0},"cost":0.29067599999999993,"tokens":{"input":14,"output":1595,"reasoning":408,"cache":{"read":183300,"write":42780}},"permission":[{"permission":"todowrite","pattern":"*","action":"deny"},{"permission":"task","pattern":"*","action":"deny"}],"time":{"created":1791502365273,"updated":1791502400253}}}}
+
+data: {"id":"evt_11ddd3afe002nceRlUCaeStDXJ","type":"session.diff","properties":{"sessionID":"ses_ee2234da6ffewpzqKcz0Fx8l5J","diff":[]}}
+
+data: {"id":"evt_11ddd3aff001gl3axwMydQ34SO","type":"message.updated","properties":{"sessionID":"ses_ee2234da6ffewpzqKcz0Fx8l5J","info":{"role":"user","time":{"created":1791502365276},"agent":"fixer","model":{"providerID":"github-copilot","modelID":"claude-opus-5.5","variant":"high"},"summary":{"diffs":[]},"id":"msg_11ddcb25c001uTjKCqPICo9sk5","sessionID":"ses_ee2234da6ffewpzqKcz0Fx8l5J"}}}
+
+data: {"id":"evt_11ddd3b01001QNlOXrR6xqH1H3","type":"session.status","properties":{"sessionID":"ses_ee2234da6ffewpzqKcz0Fx8l5J","status":{"type":"busy"}}}
+
+data: {"id":"evt_11ddd590b001rKFWjucuu5rV3T","type":"message.part.updated","properties":{"sessionID":"ses_ee277062bffeN1rk15cT8vWKtQ","part":{"id":"prt_11ddd590a0014b0vFd5rD5DRiX","messageID":"msg_11ddcfe97001yfDYl8GuCgyFDj","sessionID":"ses_ee277062bffeN1rk15cT8vWKtQ","type":"step-start"},"time":1791502407947}}
+
+data: {"id":"evt_11ddd590c001WzSs05vUOg2etJ","type":"message.part.updated","properties":{"sessionID":"ses_ee277062bffeN1rk15cT8vWKtQ","part":{"id":"prt_11ddd590c001hBd4gyitwjdy6t","messageID":"msg_11ddcfe97001yfDYl8GuCgyFDj","sessionID":"ses_ee277062bffeN1rk15cT8vWKtQ","type":"reasoning","text":"","time":{"start":1791502407948}},"time":1791502407948}}
+
+data: {"id":"evt_11ddd590c002VAMAJii86fyZUn","type":"message.part.delta","properties":{"sessionID":"ses_ee277062bffeN1rk15cT8vWKtQ","messageID":"msg_11ddcfe97001yfDYl8GuCgyFDj","partID":"prt_11ddd590c001hBd4gyitwjdy6t","field":"text","delta":""}}
+
+data: {"id":"evt_11ddd590c003RzkUeH95lG0Z6X","type":"message.part.delta","properties":{"sessionID":"ses_ee277062bffeN1rk15cT8vWKtQ","messageID":"msg_11ddcfe97001yfDYl8GuCgyFDj","partID":"prt_11ddd590c001hBd4gyitwjdy6t","field":"text","delta":""}}
+
+data: {"id":"evt_11ddd590d002BJCLSt9oe2sbpV","type":"message.part.updated","properties":{"sessionID":"ses_ee277062bffeN1rk15cT8vWKtQ","part":{"id":"prt_11ddd590d001pzrHS4HXoYFNOT","messageID":"msg_11ddcfe97001yfDYl8GuCgyFDj","sessionID":"ses_ee277062bffeN1rk15cT8vWKtQ","type":"text","text":"","time":{"start":1791502407949}},"time":1791502407949}}
+
+data: {"id":"evt_11ddd590e001WqWJ0Abkf2Fjtt","type":"message.part.delta","properties":{"sessionID":"ses_ee277062bffeN1rk15cT8vWKtQ","messageID":"msg_11ddcfe97001yfDYl8GuCgyFDj","partID":"prt_11ddd590d001pzrHS4HXoYFNOT","field":"text","delta":"Next"}}
+
+data: {"id":"evt_11ddd5910001LxiWOOa8k1h895","type":"message.part.updated","properties":{"sessionID":"ses_ee277062bffeN1rk15cT8vWKtQ","part":{"id":"prt_11ddd590d001pzrHS4HXoYFNOT","messageID":"msg_11ddcfe97001yfDYl8GuCgyFDj","sessionID":"ses_ee277062bffeN1rk15cT8vWKtQ","type":"text","text":"Next, running the hook tests against the new refresh flow.","time":{"start":1791502407949,"end":1791502407952}},"time":1791502407952}}
+
+data: {"id":"evt_11ddd5910002dWfxMLH18P96I6","type":"message.part.updated","properties":{"sessionID":"ses_ee277062bffeN1rk15cT8vWKtQ","part":{"id":"prt_11ddd5910001B7M2vNp9K3SFkA","messageID":"msg_11ddcfe97001yfDYl8GuCgyFDj","sessionID":"ses_ee277062bffeN1rk15cT8vWKtQ","type":"tool","tool":"bash","callID":"toolu_016Vc1RaTkzFyV5vBPbwEta7","state":{"status":"pending","input":{},"raw":""}},"time":1791502407952}}
+

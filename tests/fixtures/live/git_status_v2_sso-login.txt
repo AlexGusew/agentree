@@ -1,0 +1,7 @@
+# branch.oid 86ddbd7fde394879bbce35a02258e9fd4cb4ac38
+# branch.head feat/sso-login
+# branch.upstream origin/feat/sso-login
+# branch.ab +0 -0
+1 M. N... 100644 100644 100644 c8fef2ceb352871d9654191d47a7a2eb198354b4 ad1df98455d63314f4a0d9cf1e48adab7ce093e0 public/demo/sso-login.gif
+1 M. N... 100644 100644 100644 af1cb21fef1008b21631cf210052ff9bc4811bca 12148e7ff41658c71e6d365186eb7099a4b547be public/demo/sso-login.mp4
+1 M. N... 100644 100644 100644 afb49a1b180920e8779ccb5eb458fe1eece312a2 cf53cc3b3c8e45c0375214cd72c659bbb46d339f public/demo/index.html

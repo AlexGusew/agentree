@@ -1,0 +1,9 @@
+p19996
+fcwd
+n/Users/me/Projects/web-app
+p20775
+fcwd
+n/Users/me/Projects/web-app
+p24170
+fcwd
+n/Users/me/.config

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "ses_ee46e3866ffeDheb4G0zk7tBu2",
+    "slug": "witty-tiger",
+    "projectID": "3f2b9c1d8e7a6f5b4c3d2e1f0a9b8c7d6e5f4a3b",
+    "directory": "/Users/me/Projects/web-app",
+    "path": "",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 2.2589632,
+    "tokens": {
+      "input": 706826,
+      "output": 15864,
+      "reasoning": 990,
+      "cache": {
+        "read": 3234242,
+        "write": 0
+      }
+    },
+    "title": "Refactor the token refresh into a hook",
+    "agent": "orchestrator",
+    "model": {
+      "id": "gpt-6.1-sol",
+      "providerID": "github-copilot",
+      "variant": "high"
+    },
+    "version": "1.18.27",
+    "time": {
+      "created": 1791463901081,
+      "updated": 1791478790545
+    }
+  },
+  {
+    "id": "ses_eea83ab38ffejbnPVxsnfEa9cy",
+    "slug": "brave-squid",
+    "projectID": "3f2b9c1d8e7a6f5b4c3d2e1f0a9b8c7d6e5f4a3b",
+    "directory": "/Users/me/Projects/web-app",
+    "path": "",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 9.985833099999997,
+    "tokens": {
+      "input": 95830,
+      "output": 30937,
+      "reasoning": 19285,
+      "cache": {
+        "read": 9054860,
+        "write": 651036
+      }
+    },
+    "title": "Add a dark mode toggle to settings",
+    "agent": "orchestrator",
+    "model": {
+      "id": "gpt-6.1-sol",
+      "providerID": "github-copilot",
+      "variant": "high"
+    },
+    "version": "1.18.27",
+    "time": {
+      "created": 1791361832135,
+      "updated": 1791469457500
+    }
+  },
+  {
+    "id": "ses_ee53db323ffehG7N2p0ployi3y",
+    "slug": "cosmic-squid",
+    "projectID": "3f2b9c1d8e7a6f5b4c3d2e1f0a9b8c7d6e5f4a3b",
+    "directory": "/Users/me/Projects/web-app",
+    "path": "",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 0.8403954000000002,
+    "tokens": {
+      "input": 269027,
+      "output": 3767,
+      "reasoning": 125,
+      "cache": {
+        "read": 1289394,
+        "write": 0
+      }
+    },
+    "title": "Fix failing CI smoke tests workflow",
+    "agent": "orchestrator",
+    "model": {
+      "id": "gpt-6.1-sol",
+      "providerID": "github-copilot",
+      "variant": "high"
+    },
+    "version": "1.18.27",
+    "time": {
+      "created": 1791450303708,
+      "updated": 1791451248759
+    }
+  },
+  {
+    "id": "ses_f07a110d8ffeos4pYFCQURJseF",
+    "slug": "stellar-garden",
+    "projectID": "3f2b9c1d8e7a6f5b4c3d2e1f0a9b8c7d6e5f4a3b",
+    "directory": "/Users/me/Projects/web-app",
+    "path": "",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 27.92606324999999,
+    "tokens": {
+      "input": 216,
+      "output": 67972,
+      "reasoning": 57734,
+      "cache": {
+        "read": 17428054,
+        "write": 2570929
+      }
+    },
+    "title": "Fix preview build for the docs site",
+    "agent": "orchestrator",
+    "model": {
+      "id": "claude-opus-5",
+      "providerID": "github-copilot",
+      "variant": "high"
+    },
+    "version": "1.18.27",
+    "time": {
+      "created": 1790873366311,
+      "updated": 1791383335546
+    }
+  },
+  {
+    "id": "ses_eefb217abffex3656Ru6bsSVB5",
+    "slug": "lucky-harbor",
+    "projectID": "3f2b9c1d8e7a6f5b4c3d2e1f0a9b8c7d6e5f4a3b",
+    "directory": "/Users/me/Projects/web-app",
+    "path": "",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 7.425522200000004,
+    "tokens": {
+      "input": 2501984,
+      "output": 18620,
+      "reasoning": 2363,
+      "cache": {
+        "read": 9608807,
+        "write": 0
+      }
+    },
+    "title": "Staging site missing the \"Search\" API spec",
+    "agent": "orchestrator",
+    "model": {
+      "id": "gpt-6.1-sol",
+      "providerID": "github-copilot",
+      "variant": "high"
+    },
+    "version": "1.18.27",
+    "time": {
+      "created": 1791274903636,
+      "updated": 1791303080090
+    }
+  }
+]

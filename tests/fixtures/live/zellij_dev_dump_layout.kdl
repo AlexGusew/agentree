@@ -1,0 +1,73 @@
+layout {
+    cwd "/Users/me/Projects/web-app"
+    tab name="Tab #6" focus=true hide_floating_panes=true {
+        pane command="/nix/store/297if4zih7sgx2l9nzzwbmh4szjs04vl-opencode-1.18.27/bin/opencode" focus=true {
+            args "--port" "5000" "--auto"
+            start_suspended true
+        }
+        pane size=1 borderless=true {
+            plugin location="file:/Users/me/.config/zellij/plugins/zjstatus.wasm" {
+                border_enabled "false"
+                datetime "#[fg=#9D9D9D,bg=#181818] {format} "
+                datetime_format "%H:%M"
+                datetime_timezone "UTC"
+                format_left "{mode}#[bg=#181818] {tabs}"
+                format_right "#[fg=#9D9D9D,bg=#181818]{session} #[fg=#3B8EEA,bg=#181818]{datetime}"
+                format_space "#[bg=#181818]"
+                mode_default_to_mode "normal"
+                mode_enter_search "#[bg=#29B8DB,fg=#181818,bold] SEARCH: "
+                mode_locked "#[bg=#666666,fg=#FFFFFF,bold] LOCKED "
+                mode_move "#[bg=#CE9178,fg=#181818,bold] MOVE "
+                mode_normal "#[bg=#0078D4,fg=#FFFFFF,bold] NORMAL "
+                mode_pane "#[bg=#23D18B,fg=#181818,bold] PANE "
+                mode_prompt "#[bg=#F14C4C,fg=#FFFFFF,bold] PROMPT "
+                mode_rename_pane "#[bg=#D670D6,fg=#181818,bold] RENAME PANE "
+                mode_rename_tab "#[bg=#D670D6,fg=#181818,bold] RENAME TAB "
+                mode_resize "#[bg=#CE9178,fg=#181818,bold] RESIZE "
+                mode_scroll "#[bg=#29B8DB,fg=#181818,bold] SCROLL "
+                mode_search "#[bg=#29B8DB,fg=#181818,bold] SEARCH "
+                mode_session "#[bg=#D670D6,fg=#181818,bold] SESSION "
+                mode_tab "#[bg=#23D18B,fg=#181818,bold] TAB "
+                mode_tmux "#[bg=#E5E510,fg=#181818,bold] TMUX "
+                tab_active "#[fg=#FFFFFF,bg=#0078D4,bold] [{index}] {name} "
+                tab_normal "#[fg=#9D9D9D,bg=#181818] {index} {name} "
+                tab_rename "#[fg=#181818,bg=#E5E510,bold] [{index}] {name} "
+                tab_separator "#[bg=#181818] "
+            }
+        }
+    }
+    new_tab_template {
+        pane cwd="/Users/me"
+        pane size=1 borderless=true {
+            plugin location="file:/Users/me/.config/zellij/plugins/zjstatus.wasm" {
+                border_enabled "false"
+                datetime "#[fg=#9D9D9D,bg=#181818] {format} "
+                datetime_format "%H:%M"
+                datetime_timezone "UTC"
+                format_left "{mode}#[bg=#181818] {tabs}"
+                format_right "#[fg=#9D9D9D,bg=#181818]{session} #[fg=#3B8EEA,bg=#181818]{datetime}"
+                format_space "#[bg=#181818]"
+                mode_default_to_mode "normal"
+                mode_enter_search "#[bg=#29B8DB,fg=#181818,bold] SEARCH: "
+                mode_locked "#[bg=#666666,fg=#FFFFFF,bold] LOCKED "
+                mode_move "#[bg=#CE9178,fg=#181818,bold] MOVE "
+                mode_normal "#[bg=#0078D4,fg=#FFFFFF,bold] NORMAL "
+                mode_pane "#[bg=#23D18B,fg=#181818,bold] PANE "
+                mode_prompt "#[bg=#F14C4C,fg=#FFFFFF,bold] PROMPT "
+                mode_rename_pane "#[bg=#D670D6,fg=#181818,bold] RENAME PANE "
+                mode_rename_tab "#[bg=#D670D6,fg=#181818,bold] RENAME TAB "
+                mode_resize "#[bg=#CE9178,fg=#181818,bold] RESIZE "
+                mode_scroll "#[bg=#29B8DB,fg=#181818,bold] SCROLL "
+                mode_search "#[bg=#29B8DB,fg=#181818,bold] SEARCH "
+                mode_session "#[bg=#D670D6,fg=#181818,bold] SESSION "
+                mode_tab "#[bg=#23D18B,fg=#181818,bold] TAB "
+                mode_tmux "#[bg=#E5E510,fg=#181818,bold] TMUX "
+                tab_active "#[fg=#FFFFFF,bg=#0078D4,bold] [{index}] {name} "
+                tab_normal "#[fg=#9D9D9D,bg=#181818] {index} {name} "
+                tab_rename "#[fg=#181818,bg=#E5E510,bold] [{index}] {name} "
+                tab_separator "#[bg=#181818] "
+            }
+        }
+    }
+}
+

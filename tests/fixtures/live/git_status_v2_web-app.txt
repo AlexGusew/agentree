@@ -1,0 +1,9 @@
+# branch.oid 477b129bfacea011b91a4616e18968846a77f4d6
+# branch.head fix/ci-smoke-tests
+# branch.upstream origin/fix/ci-smoke-tests
+# branch.ab +0 -0
+? .opencode/
+? .worktrees/
+? docs/NOTES.md
+? output/
+? scripts/tmp/

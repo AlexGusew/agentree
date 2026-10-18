@@ -1,0 +1,2 @@
+CLIENT_ID ZELLIJ_PANE_ID RUNNING_COMMAND
+1         terminal_2     /nix/store/297if4zih7sgx2l9nzzwbmh4szjs04vl-opencode-1.18.27/bin/opencode --port 5004 --auto
